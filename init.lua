@@ -859,6 +859,9 @@ require('lazy').setup({
   require 'config.plugins.neo-tree',
   require 'config.plugins.gitsigns', -- adds gitsigns recommend keymaps
   require 'config.plugins.statusline', -- adds gitsigns recommend keyma
+  require 'config.plugins.bar_and_line', -- adds gitsigns recommend keyma
+  require 'config.plugins.cursorline',
+  require 'config.plugins.startup',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

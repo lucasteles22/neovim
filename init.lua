@@ -862,6 +862,7 @@ require('lazy').setup({
   require 'config.plugins.bar_and_line', -- adds gitsigns recommend keyma
   require 'config.plugins.cursorline',
   require 'config.plugins.startup',
+  -- require 'config.plugins.leap',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
